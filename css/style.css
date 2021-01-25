@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    /* background-color: grey;
+    color: white; */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; */
+}
+
+nav {
+    padding: 10px;
+    box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+}
+
+.brand {
+    display: inline-block;
+}
+
+.nav-links {
+    display: inline-block;
+    float: right;
+}
+
+nav ul {
+    display: inline-block;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+    font-weight: bolder;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: green;
+}
+
+/* 
+hero section starts here
+*/
+
+.hero {
+    background-color: rgba(203, 216, 203, 0.74);
+    height: 45vh;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.hero a {
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: green;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+}
+
+.card {
+    display: inline-block;
+    padding: 30px 40px;
+    margin: 50px;
+    box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+}
