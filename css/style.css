@@ -55,6 +55,13 @@ hero section starts here
     text-align: center;
 }
 
+.hero_2 {
+    background-color: rgba(203, 216, 203, 0.74);
+    height: 15vh;
+    padding-top: 70px;
+    text-align: center;
+}
+
 .hero h1 {
     font-size: 35px;
     margin-bottom: 20px;
@@ -76,3 +83,64 @@ hero section starts here
     margin: 50px;
     box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
 }
+
+/* 
+css styles for contact page
+*/
+
+.con {
+    display: inline-block;
+    width: 40vw;
+    padding-top: 45px;
+    margin: 50px;
+}
+
+#con-info {
+    float: right;
+    box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+    padding: 20px;
+}
+
+input,
+textarea {
+    padding: 15px;
+    width: 95%;
+    display: block;
+    background-color: #f3f5fe;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: 0px;
+    color: green;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+/* button{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+} */
+.btn-grad {
+    background-image: linear-gradient(to right, #08780e 0%, #4a26e9 51%, #f5cd1b 100%)
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+/* https: //gradientbuttons.colorion.co/ */
